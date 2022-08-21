@@ -1,0 +1,16 @@
+h2{
+    color: darkslategrey;
+    background-color: darkgrey;
+}
+h4{
+     text-align: center;
+    word-spacing: 7px ;
+    color: chocolate;
+}
+.row{
+    /*cho phép thẻ div (col) nổi lên trên*/
+    display: flex;
+    /*Các thẻ div (col)  không đủ chỗ chứa trên 1 hàng thì rớt xuống*/
+    flex-wrap: wrap;
+}
+

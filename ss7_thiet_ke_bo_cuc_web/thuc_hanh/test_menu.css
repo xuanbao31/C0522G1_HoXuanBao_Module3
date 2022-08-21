@@ -1,0 +1,47 @@
+body{
+    font-family: Arial;
+}
+#menu, #menu ul, #menu li{
+    padding:0;
+    margin:0;
+}
+
+#menu li{
+    list-style: none;
+    position: relative;
+    width:100px;
+    height: 30px;
+    padding:0 20px;
+    background-color: black;
+    line-height: 30px;
+    cursor:pointer;
+}
+/*  định nghĩa thêm một bộ chọn mới dành cho các liên kết bên trong các danh sách (thẻ a);
+bộ chọn này gồm các mô tả sau: text-decoration: none; dùng để bỏ các gạch chân của liên kết và color: white; dùng để đổi màu liên kết sang màu trắng:
+ */
+
+#menu li a{
+    text-decoration:none;
+    color: white;
+}
+
+#menu li:hover{
+    background-color:red;
+}
+/*Bộ chọn tiếp theo sẽ dành cho các danh sách con (danh sách bên trong một phần tử của danh sách khác), mô tả position: absolute;
+cho phép cố định vị trí xuất hiện của các danh sách con, mô tả top: 0; và left: 160px;
+xác định vị trí góc trên trái của khung chứa danh sách con (so với vị trí của phần tử chứa danh sách này),
+mô tả visibility: hidden; sẽ ẩn làm các danh sách con.
+ */
+#menu ul ul{
+    position: absolute;
+    top:0;
+    left:140px;
+    visibility:hidden;
+}
+/* bộ chọn dành cho các danh sách con khi phần tử của danh sách ngoài bị đưa con trỏ qua.
+ Bộ chọn này sẽ cho phép danh sách con tương ứng của phần tử đó được hiển thị lên.
+ */
+#menu ul li:hover ul{
+    visibility:visible;
+}
