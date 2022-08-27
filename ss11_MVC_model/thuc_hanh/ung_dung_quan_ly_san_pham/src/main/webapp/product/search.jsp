@@ -7,10 +7,15 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-  <head>
-    <title>$Title$</title>
-  </head>
-  <body>
-  $END$
-  </body>
+<head>
+    <title>Title</title>
+</head>
+<body>
+<form method="post" action="/ProductServlet?action=search&id=${product.id}">
+    <input type="text" name="name" placeholder="Nhập tên">
+    <input type="submit" name="action" value="search">
+</form>
+
+
+</body>
 </html>

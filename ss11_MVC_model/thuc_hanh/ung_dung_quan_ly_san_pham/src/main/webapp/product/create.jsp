@@ -26,7 +26,7 @@
 <p>
     <a href="/ProductServlet">Back to Product list</a>
 </p>
-<form method="post">
+<form method="post" action="/ProductServlet?action=create">
     <fieldset>
         <legend>Product information</legend>
         <table>
@@ -48,7 +48,7 @@
             </tr>
             <tr>
                 <td></td>
-                <td><input type="submit" value="Create product"></td>
+                <td><input type="submit"></td>
             </tr>
         </table>
     </fieldset>

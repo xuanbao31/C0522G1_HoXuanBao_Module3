@@ -7,10 +7,15 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-  <head>
-    <title>$Title$</title>
-  </head>
-  <body>
-  $END$
-  </body>
+<head>
+    <title>Title</title>
+</head>
+<body>
+Bạn có muốn xóa${product.name}
+<%--<a href="">Có</a>--%>
+<%--<a href="/ProductServlet">Không</a>--%>
+<form action="/ProductServlet?action=delete&id=${products.id}" method="post">
+    <button type="submit">delete</button>
+</form>
+</body>
 </html>

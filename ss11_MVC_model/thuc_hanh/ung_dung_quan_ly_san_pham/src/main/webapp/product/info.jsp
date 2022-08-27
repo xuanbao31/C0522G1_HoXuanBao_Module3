@@ -11,7 +11,8 @@
     <title>Title</title>
 </head>
 <body>
-<a href="/"
+<a href="/ProductServlet">Back To List </a>
+${pro.name}
 
 </body>
 </html>
