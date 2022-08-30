@@ -71,3 +71,4 @@ from Customer
 Where Customer.cID not in (Select Oder.cID from Oder);
 
 
+

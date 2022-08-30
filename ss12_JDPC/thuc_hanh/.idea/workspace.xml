@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="78a350aa-4d6c-437e-9673-f3c3ae98e810" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../ss11_MVC_model/bai_tap/untitled2/src/main/java/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss11_MVC_model/bai_tap/untitled2/src/main/java/reponsitory/BaseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss11_MVC_model/bai_tap/untitled2/src/main/java/reponsitory/IProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss11_MVC_model/bai_tap/untitled2/src/main/java/reponsitory/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss11_MVC_model/bai_tap/user_manage_CRUD/src/main/java/IUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss11_MVC_model/bai_tap/user_manage_CRUD/src/main/java/UserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss11_MVC_model/bai_tap/user_manage_CRUD/src/main/java/controler/UserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss11_MVC_model/bai_tap/user_manage_CRUD/src/main/java/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bai_tap/user_manage.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../bai_tap/user_manage.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss2_thiet_ke_va_tao_ssl/bai_tap/xay_dung_co_so_du_lieu.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss2_thiet_ke_va_tao_ssl/bai_tap/xay_dung_co_so_du_lieu.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss5_sql_view_index/view_index_store.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss5_sql_view_index/view_index_store.sql" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2E1dlVc6GpStJm4yIcJWpdVJtum" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="78a350aa-4d6c-437e-9673-f3c3ae98e810" name="Changes" comment="" />
+      <created>1661767175656</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1661767175656</updated>
+      <workItem from="1661767176789" duration="29000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

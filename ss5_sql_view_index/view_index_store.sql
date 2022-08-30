@@ -74,7 +74,7 @@ product_description = p_description,
 product_status =p_status 
 where id =p_id;
 end //
-Delimiter;
+Delimiter ;
 call update_product(7,'ip14pro','IPhone14Pro',12000,5,'den kim cuong',2);
 
 -- Tạo store procedure xoá sản phẩm theo id
@@ -84,6 +84,6 @@ begin
 delete from product 
 where id =p_id;
 end//
-DELIMITER;
+DELIMITER ;
 call delete_sp_product_by_id(2);
 call sp_product()
